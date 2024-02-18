@@ -4,7 +4,7 @@ import { Icon } from '@iconify/vue'
 
 <template>
   <div class="bg-[#404040]">
-    <div class="container text-white flex justify-between py-[47px]">
+    <div class="container text-white flex justify-between pt-[47px] pb-[27px]">
       <div class="flex flex-col gap-y-[46px]">
         <h3 class="uppercase">Контакты</h3>
         <div class="flex gap-x-[5px] items-center">

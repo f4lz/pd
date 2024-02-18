@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply font-montserrat text-primary text-sm md:text-base lg:text-lg;
+    @apply font-montserrat text-primary h-full text-sm md:text-base lg:text-lg;
   }
 
   h1 {
@@ -45,4 +45,24 @@
 @layer components {
   .button {
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
 }

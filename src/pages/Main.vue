@@ -1,8 +1,5 @@
-<script setup>
-import Footer from '../components/Footer.vue'
-</script>
+<script setup></script>
 
 <template>
   <div>Главная страница</div>
-  <Footer />
 </template>

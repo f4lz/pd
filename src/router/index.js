@@ -29,8 +29,8 @@ const router = createRouter({
       component: Login,
     },
     {
-      path: '/feedBack',
-      name: 'feedBack',
+      path: '/feedback',
+      name: 'feedback',
       component: FeedBack,
     },
   ],

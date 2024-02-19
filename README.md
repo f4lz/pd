@@ -2,7 +2,7 @@
 
 ## Рекомендуемая настройка IDE
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (и отключить Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
 ## Установка и запуск проекта
 
@@ -10,19 +10,19 @@
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Компиляция для разработки
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Компиляция для производства
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Форматирование линта с [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint

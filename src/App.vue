@@ -7,9 +7,10 @@ import Header from './components/Header.vue'
 <template>
   <div class="wrapper">
     <Header />
-    <div class="bg-background-secondary content">
+    <div
+      class="bg-background-secondary flex items-center justify-center content">
       <transition mode="out-in" name="router">
-        <RouterView class="container mt-9" />
+        <RouterView class="container my-9" />
       </transition>
     </div>
     <Footer class="footer" />

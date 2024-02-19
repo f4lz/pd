@@ -38,12 +38,13 @@
   }
 
   input {
-    @apply text-sm border-2 rounded-md p-2;
+    @apply w-full bg-[#D9D9D9] px-[33px] rounded-full p-2;
   }
 }
 
 @layer components {
-  .button {
+  .button-primary {
+    @apply max-w-[159px] flex items-center justify-center bg-background-primary text-primary hover:bg-background-primary/80 transition-all py-1 px-3 rounded-md;
   }
 }
 

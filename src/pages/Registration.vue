@@ -7,8 +7,9 @@
     <input type="text" class="mt-[47px]" placeholder="Логин" />
     <input type="email" placeholder="Почта" />
     <input type="password" placeholder="Пароль" />
+    <RouterLink to="/login" class="underline">Уже есть аккаунт?</RouterLink>
     <button
-      class="button-primary w-full max-w-[429px] mt-[62px] rounded-full bg-[#D9D9D9]">
+      class="button-primary w-full max-w-[429px] rounded-full bg-[#D9D9D9]">
       Зарегистрироваться
     </button>
     <hr class="w-full my-[18px]" />

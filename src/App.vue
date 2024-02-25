@@ -6,6 +6,9 @@ import Header from './components/Header.vue'
 
 <template>
   <div class="wrapper">
+    <div class="bg-black py-5">
+      <h1 class="text-white text-center font-normal">ГОСТ</h1>
+    </div>
     <Header />
     <div
       class="bg-background-secondary flex items-center justify-center content">

@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { RouterLink } from 'vue-router';
+</script>
 
 <template>
   <div
@@ -6,8 +8,9 @@
     <h3>Авторизация</h3>
     <input type="text" class="mt-[47px]" placeholder="Логин" />
     <input type="password" placeholder="Пароль" />
+    <RouterLink to="/" class="underline">Забыли пароль</RouterLink>
     <button
-      class="button-primary mt-[62px] w-full max-w-[429px] rounded-full bg-[#D9D9D9]">
+      class="button-primary w-full max-w-[429px] rounded-full bg-[#D9D9D9]">
       Войти
     </button>
     <hr class="w-full my-[18px]" />

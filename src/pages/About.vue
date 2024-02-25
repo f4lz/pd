@@ -21,9 +21,9 @@
         venenatis pharetra ac non arcu.
       </p>
     </div>
-    <div>
-      ГОСТ
-      <div class="w-[394px] h-[394px] bg-gray-500"></div>
+    <div class="flex flex-col gap-y-[51px] items-center">
+      <img src="../assets/img/gost.svg" width="360" height="95" alt="ГОСТ" />
+      <div class="w-[394px] h-[394px] bg-[#D9D9D9]"></div>
     </div>
   </div>
 </template>

@@ -2,7 +2,7 @@
 
 <template>
   <div class="flex justify-between flex-col gap-y-[31px]">
-    <h1 class="text-black text-center">О нашем проекте</h1>
+    <h1 class="text-center">О нашем проекте</h1>
     <div class="flex gap-x-[72px]">
       <p class="text-[32px] leading-10">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lectus
@@ -21,7 +21,6 @@
         venenatis pharetra ac non arcu.
       </p>
       <div class="flex flex-col gap-y-[51px] items-center">
-        <img src="../assets/img/gost.svg" width="360" height="95" alt="ГОСТ" />
         <div class="w-[394px] h-[394px] bg-[#D9D9D9]"></div>
       </div>
     </div>

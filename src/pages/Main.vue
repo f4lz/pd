@@ -15,14 +15,15 @@ const select = {
 
 <template>
   <div>
-    <div class="grid grid-cols-2 gap-x-[152px] gap-y-[127px]">
+    <div
+      class="grid grid-cols-2 gap-x-[152px] gap-y-[127px] bg-background-primary dark:bg-background-primaryDark py-[166px] px-9 shadow-xl rounded-lg">
       <UiSelect :select="select" />
       <UiInput title="Выберите отступ:" placeholder="Введите отступ" />
       <UiInput title="Пример 1:" placeholder="Введите пример 1" />
       <UiInput title="Пример 2:" placeholder="Введите пример 2" />
     </div>
     <div
-      class="mt-[266px] bg-green flex flex-col gap-y-[50px] text-center items-center">
+      class="mt-[266px] bg-background-primary dark:bg-background-primaryDark rounded-lg shadow-xl py-[110px] px-9 flex flex-col gap-y-[50px] text-center items-center">
       <p class="max-w-[1381px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lectus
         risus, finibus ornare vestibulum et, feugiat quis dui. Vivamus sit amet

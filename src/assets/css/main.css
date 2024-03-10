@@ -6,45 +6,45 @@
 
 @layer base {
   body {
-    @apply font-montserrat text-primary h-full text-sm md:text-base lg:text-lg;
+    @apply font-montserrat text-primary h-full text-sm md:text-base lg:text-lg dark:text-white;
   }
 
   h1 {
-    @apply text-5xl font-montserrat font-semibold;
+    @apply text-5xl font-montserrat font-semibold dark:text-white;
   }
 
   h2 {
-    @apply text-4xl font-semibold font-montserrat;
+    @apply text-4xl font-semibold font-montserrat dark:text-white;
   }
 
   h3 {
-    @apply text-3xl font-semibold font-montserrat;
+    @apply text-3xl font-medium font-montserrat dark:text-white;
   }
 
   h4 {
-    @apply text-2xl font-semibold font-montserrat;
+    @apply text-2xl font-semibold font-montserrat dark:text-white;
   }
 
   h5 {
-    @apply text-xl font-semibold;
+    @apply text-xl font-semibold dark:text-white;
   }
 
   h6 {
-    @apply text-base md:text-lg font-semibold;
+    @apply text-base md:text-lg font-semibold dark:text-white;
   }
 
   span {
-    @apply text-sm;
+    @apply text-sm dark:text-white;
   }
 
   input {
-    @apply w-full bg-[#D9D9D9] px-[33px] rounded-full p-2;
+    @apply w-full bg-background-secondary px-[33px] rounded-full p-2;
   }
 }
 
 @layer components {
   .button-primary {
-    @apply max-w-[159px] flex items-center justify-center bg-background-primary text-primary hover:bg-background-primary/80 transition-all py-1 px-3 rounded-md;
+    @apply max-w-[159px] flex items-center justify-center bg-[#9AABEC] text-primary hover:bg-[#9AABEC]/80 transition-all py-1 px-3 rounded-md;
   }
 }
 

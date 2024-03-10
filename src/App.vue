@@ -6,12 +6,12 @@ import Header from './components/Header.vue'
 
 <template>
   <div class="wrapper">
-    <div class="bg-black py-5">
-      <h1 class="text-white text-center font-normal">ГОСТ</h1>
+    <div class="dark:bg-background-primary bg-background-primaryDark py-5">
+      <h1 class="dark:text-black text-white text-center font-normal">ГОСТ</h1>
     </div>
     <Header />
     <div
-      class="bg-background-secondary flex items-center justify-center content">
+      class="bg-background-secondary dark:bg-background-secondaryDark flex items-center justify-center content">
       <transition mode="out-in" name="router">
         <RouterView class="container my-9" />
       </transition>

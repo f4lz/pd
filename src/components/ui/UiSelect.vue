@@ -13,7 +13,7 @@ defineProps({
   <div class="flex flex-col gap-y-[52px]">
     <label :for="select.name">{{ select.title }}</label>
     <select
-      class="bg-white border rounded-md py-[14px] px-5"
+      class="bg-white border dark:text-black rounded-md py-[14px] px-5"
       :name="select.name"
       :id="select.id">
       <option

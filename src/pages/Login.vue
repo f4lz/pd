@@ -13,7 +13,7 @@ import { RouterLink } from 'vue-router'
       Войти
     </button>
     <hr class="w-full my-[18px]" />
-    <p class="text-base text-black/50 leading-5 w-[389px]">
+    <p class="text-base text-black/50 dark:text-white leading-5 w-[389px]">
       Нажимая на кнопку, вы принимаете условия пользовательского соглашения
     </p>
   </div>

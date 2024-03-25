@@ -3,7 +3,7 @@
 <template>
   <div class="flex justify-between flex-col gap-y-[31px]">
     <h1 class="text-center">О нашем проекте</h1>
-    <div class="flex gap-x-[72px]">
+    <div class="flex md:flex-row flex-col gap-x-[72px] gap-y-8">
       <p class="text-[32px] leading-10">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lectus
         risus, finibus ornare vestibulum et, feugiat quis dui. Vivamus sit amet

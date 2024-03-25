@@ -16,7 +16,10 @@ defineProps({
       class="bg-white border rounded-md py-[14px] px-5"
       :name="select.name"
       :id="select.id">
-      <option :value="option.value" v-for="option of select.options">
+      <option
+        class="dark:text-black"
+        :value="option.value"
+        v-for="option of select.options">
         {{ option.name }}
       </option>
     </select>

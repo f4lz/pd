@@ -38,7 +38,7 @@
   }
 
   input {
-    @apply w-full bg-background-secondary px-[33px] rounded-full p-2;
+    @apply w-full bg-background-secondary px-[33px] rounded-full p-2 dark:text-black;
   }
 }
 

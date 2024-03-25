@@ -1,4 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import defaultLayout from '../components/layouts/default.vue'
+import noFooterLayout from '../components/layouts/nofooter.vue'
 import About from '../pages/About.vue'
 import FeedBack from '../pages/FeedBack.vue'
 import Login from '../pages/Login.vue'
@@ -10,28 +12,40 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'main',
-      component: Main,
+      component: defaultLayout,
+      children: [
+        {
+          path: '/',
+          name: 'main',
+          component: Main,
+        },
+        {
+          path: '/about',
+          name: 'about',
+          component: About,
+        },
+      ],
     },
     {
-      path: '/about',
-      name: 'about',
-      component: About,
-    },
-    {
-      path: '/registration',
-      name: 'registration',
-      component: Registration,
-    },
-    {
-      path: '/login',
-      name: 'login',
-      component: Login,
-    },
-    {
-      path: '/feedback',
-      name: 'feedback',
-      component: FeedBack,
+      path: '/',
+      component: noFooterLayout,
+      children: [
+        {
+          path: '/registration',
+          name: 'registration',
+          component: Registration,
+        },
+        {
+          path: '/login',
+          name: 'login',
+          component: Login,
+        },
+        {
+          path: '/feedback',
+          name: 'feedback',
+          component: FeedBack,
+        },
+      ],
     },
   ],
 })

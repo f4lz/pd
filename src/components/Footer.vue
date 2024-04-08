@@ -18,7 +18,10 @@ import { Icon } from '@iconify/vue'
           © 2024–2024 ГОСТ. Все права защищены / Terms of Use / Privacy Policy
         </p>
       </div>
-      <img src="../assets/img/logo.svg" alt="Московский политех" />
+      <img
+        class="lg:block hidden"
+        src="../assets/img/logo.svg"
+        alt="Московский политех" />
     </div>
   </div>
 </template>

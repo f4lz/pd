@@ -16,7 +16,7 @@ const select = {
 <template>
   <div>
     <div
-      class="grid grid-cols-2 gap-x-[152px] gap-y-[127px] bg-background-primary dark:bg-background-primaryDark py-[166px] px-9 shadow-xl rounded-lg">
+      class="grid grid-cols-2 lg:gap-x-[152px] gap-x-6 gap-y-6 items-end lg:gap-y-[127px] bg-background-primary dark:bg-background-primaryDark py-[166px] px-9 shadow-xl rounded-lg">
       <UiSelect :select="select" />
       <UiInput title="Выберите отступ:" placeholder="Введите отступ" />
       <UiInput title="Пример 1:" placeholder="Введите пример 1" />
@@ -31,7 +31,41 @@ const select = {
         scelerisque. Sed suscipit, arcu volutpat feugiat posuere, eros nisi
         tristique nibh, mollis vehicula lectus tortor eu purus.
       </p>
-      <input type="file" class="max-w-[796px]" />
+      <div class="file max-w-[796px] w-full">
+        <input type="file" class="input-visibility dark:bg-[#121212]" />
+        <label class="absolute top-1/2 -translate-x-1/2 mt-2 left-1/2">
+          Нажмите сюда чтобы выбрать файл
+        </label>
+      </div>
     </div>
   </div>
 </template>
+
+<style>
+.input-visibility {
+  font-size: 0px;
+  content-visibility: hidden;
+  border: 1px rgb(94, 94, 94);
+  border-style: dotted;
+  padding: 90px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.file {
+  position: relative;
+}
+
+.file::after {
+  content: '';
+  position: absolute;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  width: 145.54px;
+  height: 100px;
+  display: block;
+  top: 0;
+  left: 50%;
+  background-image: url(/src/assets/img/folder.svg);
+}
+</style>

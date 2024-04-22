@@ -7,7 +7,7 @@
     <input type="text" class="mt-[47px]" placeholder="Логин" />
     <input type="email" placeholder="Старый пароль" />
     <input type="password" placeholder="Новый пароль" />
-    <button class="button-primary w-full max-w-[429px] rounded-full">
+    <button class="button-primary w-full max-w-[429px] rounded-full mt-2">
       Сохранить
     </button>
   </div>

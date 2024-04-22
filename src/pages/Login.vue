@@ -1,5 +1,7 @@
 <script setup>
-import { RouterLink } from 'vue-router'
+import { RouterLink, useRouter } from 'vue-router'
+
+const router = useRouter()
 </script>
 
 <template>
@@ -9,7 +11,9 @@ import { RouterLink } from 'vue-router'
     <input type="text" class="mt-[47px]" placeholder="Логин" />
     <input type="password" placeholder="Пароль" />
     <RouterLink to="/" class="underline">Забыли пароль</RouterLink>
-    <button class="button-primary w-full max-w-[429px] rounded-full">
+    <button
+      class="button-primary w-full max-w-[429px] rounded-full"
+      @click="router.push('/profile')">
       Войти
     </button>
     <hr class="w-full my-[18px]" />

@@ -5,6 +5,7 @@ import About from '../pages/About.vue'
 import FeedBack from '../pages/FeedBack.vue'
 import Login from '../pages/Login.vue'
 import Main from '../pages/Main.vue'
+import Profile from '../pages/Profile.vue'
 import Registration from '../pages/Registration.vue'
 
 const router = createRouter({
@@ -39,6 +40,11 @@ const router = createRouter({
           path: '/login',
           name: 'login',
           component: Login,
+        },
+        {
+          path: '/profile',
+          name: 'profile',
+          component: Profile,
         },
         {
           path: '/feedback',
